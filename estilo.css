@@ -3,7 +3,104 @@ body, h1, h2, h3, h4, h5 {
 	margin: 0;
 }
 
+.clearfix {
+	clear: both;
+}
+
 body {
 
 }
 
+/* NAVEGACAO */
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+}
+
+
+/* BLOCOS */
+
+#container {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 1px solid;
+}
+
+header #cabecalho {
+	padding: 15px 0;
+}
+
+header #top-menu {
+	float: left;
+}
+
+header #busca-e-redes {
+	float: right;
+}
+
+header #busca-e-redes form,
+header #busca-e-redes #social {
+	display: inline-block;
+}
+
+header #busca-e-redes form {
+	margin-right: 15px;
+}
+
+header #busca-e-redes #social {
+
+}
+
+header nav#menu {
+	padding: 15px 0 20px;
+}
+
+#casulo {
+	clear: both;
+}
+
+#casulo aside,
+#casulo #posts {
+	padding-top: 30px;
+}
+
+#casulo aside {
+	float: left;
+	width: 330px;
+}
+
+#casulo #posts {
+	float: left;
+	width: 660px;
+	border-left: 1px solid;
+    padding-left: 29px;
+}
+
+#casulo article.post {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid
+}
+
+#casulo article.post:last-child {
+	border-bottom: none;
+}
+
+#casulo article.post h2 {
+	margin-bottom: 30px;
+}
